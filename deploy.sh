@@ -3,6 +3,7 @@
 set -e
 
 CONF_LOCATION="$(dirname $0)"
+echo "CONF_LOCATION = $CONF_LOCATION"
 
 # All expected to run as mediagoblin user
 cd /var/www-data/mediagoblin/mediagoblin

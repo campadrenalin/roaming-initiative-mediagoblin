@@ -5,3 +5,5 @@
 cd /var/www-data/mediagoblin/mediagoblin
 
 ./bin/python setup.py develop --upgrade && ./bin/gmg dbupdate
+
+echo "Please run restart.sh as root now."
